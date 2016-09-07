@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="eu.kalray.eclipse.base.k1.exe.debug.419917472">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.exe.debug.419917472" moduleId="org.eclipse.cdt.core.settings" name="k1dp_ab01_bare_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.exe.debug.419917472" name="k1dp_ab01_bare_Debug" parent="eu.kalray.eclipse.base.k1.exe.debug">
+					<folderInfo id="eu.kalray.eclipse.base.k1.exe.debug.419917472." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.exe.debug.1603720144" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.exe.debug">
+							<targetPlatform id="eu.kalray.managedbuild.k1.platform.exe.debug.1249397853" name="k1dp" superClass="eu.kalray.managedbuild.k1.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_ab01_bare_Debug" id="eu.kalray.managedbuild.k1.builder.exe.debug.1087585812" managedBuildOn="true" name="Gnu Make Builder.k1dp_ab01_bare_Debug" superClass="eu.kalray.managedbuild.k1.builder.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.1521676039" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.c.compiler.exe.debug.1999525509" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.575854110" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.2862238" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.1294812608" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.debug.1997786619" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.option.optimization.level.861168870" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.720808665" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1880022904" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.c.linker.exe.debug.1137407446" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.c.linker.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.cpp.linker.exe.debug.1519966077" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.cpp.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.512552633" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.assembler.exe.debug.248018393" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.assembler.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2092231995" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="eu.kalray.eclipse.base.k1.exe.release.974836304">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.exe.release.974836304" moduleId="org.eclipse.cdt.core.settings" name="k1dp_ab01_bare_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.exe.release.974836304" name="k1dp_ab01_bare_Release" parent="eu.kalray.eclipse.base.k1.exe.release">
+					<folderInfo id="eu.kalray.eclipse.base.k1.exe.release.974836304." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.exe.release.1052706233" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.exe.release">
+							<targetPlatform id="eu.kalray.managedbuild.k1.platform.exe.release.874448807" name="Debug platform" superClass="eu.kalray.managedbuild.k1.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_ab01_bare_Release" id="eu.kalray.managedbuild.k1.builder.exe.release.636422725" managedBuildOn="true" name="Gnu Make Builder.k1dp_ab01_bare_Release" superClass="eu.kalray.managedbuild.k1.builder.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.90530071" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.c.compiler.exe.release.1980158539" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.2035554558" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.469182753" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.695813083" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.release.89856066" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.option.optimization.level.167111381" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1310735785" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1395630672" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.c.linker.exe.release.1381626688" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.c.linker.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.cpp.linker.exe.release.1383580384" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.cpp.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.69045020" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.assembler.exe.release.1194755351" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1200176511" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143" moduleId="org.eclipse.cdt.core.settings" name="k1dp_emb01_bare_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143" name="k1dp_emb01_bare_Debug" parent="eu.kalray.eclipse.base.k1.emb01.exe.debug">
+					<folderInfo id="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.emb01.exe.debug.2076451733" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.emb01.exe.debug">
+							<targetPlatform id="eu.kalray.managedbuild.k1.emb01.platform.exe.debug.690981829" name="k1dp on emb01" superClass="eu.kalray.managedbuild.k1.emb01.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_emb01_bare_Debug" id="eu.kalray.managedbuild.k1.emb01.builder.exe.debug.926713188" managedBuildOn="true" name="Gnu Make Builder.k1dp_emb01_bare_Debug" superClass="eu.kalray.managedbuild.k1.emb01.builder.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.273834518" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.debug.699870117" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.921443755" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.2011552541" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.1455146380" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.debug.169678549" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.option.optimization.level.641197319" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1776177986" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.132287108" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.c.linker.exe.debug.1747123543" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.emb01.c.linker.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.cpp.linker.exe.debug.822789158" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.emb01.cpp.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1645243925" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.assembler.exe.debug.2063221068" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.emb01.assembler.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1792582215" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854" moduleId="org.eclipse.cdt.core.settings" name="k1dp_emb01_bare_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854" name="k1dp_emb01_bare_Release" parent="eu.kalray.eclipse.base.k1.emb01.exe.release">
+					<folderInfo id="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.emb01.exe.release.674223543" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.emb01.exe.release">
+							<targetPlatform id="eu.kalray.managedbuild.k1.emb01.platform.exe.release.1088045487" name="k1dp on emb01" superClass="eu.kalray.managedbuild.k1.emb01.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_emb01_bare_Release" id="eu.kalray.managedbuild.k1.emb01.builder.exe.release.1256043348" managedBuildOn="true" name="Gnu Make Builder.k1dp_emb01_bare_Release" superClass="eu.kalray.managedbuild.k1.emb01.builder.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.1215564330" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.release.28817995" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1936948100" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.18687845" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.1467309942" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.release.1182217990" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.option.optimization.level.1986596858" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1753032994" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1137811937" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.c.linker.exe.release.478942515" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.emb01.c.linker.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.cpp.linker.exe.release.694119591" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.emb01.cpp.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.755285917" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.emb01.assembler.exe.release.641783139" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.emb01.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1966856362" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222" moduleId="org.eclipse.cdt.core.settings" name="k1dp_tc2_bare_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222" name="k1dp_tc2_bare_Debug" parent="eu.kalray.eclipse.base.k1.tc2.exe.debug">
+					<folderInfo id="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.tc2.exe.debug.157753306" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.tc2.exe.debug">
+							<targetPlatform id="eu.kalray.managedbuild.k1.tc2.platform.exe.debug.1629847864" name="k1dp on tc2" superClass="eu.kalray.managedbuild.k1.tc2.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_tc2_bare_Debug" id="eu.kalray.managedbuild.k1.tc2.builder.exe.debug.1536712240" managedBuildOn="true" name="Gnu Make Builder.k1dp_tc2_bare_Debug" superClass="eu.kalray.managedbuild.k1.tc2.builder.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.711006454" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.debug.1357303539" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1046587649" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.902513413" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.1722235694" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.debug.284065469" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.option.optimization.level.223260015" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.333419869" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.881321337" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.c.linker.exe.debug.841974908" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.tc2.c.linker.exe.debug"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.cpp.linker.exe.debug.1398904272" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.tc2.cpp.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.13364164" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.assembler.exe.debug.1250720492" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.tc2.assembler.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2022161831" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723" moduleId="org.eclipse.cdt.core.settings" name="k1dp_tc2_bare_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="eu.kalray.eclipse.base.K1Multibinary" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="eu.kalray.eclipse.base.K1ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723" name="k1dp_tc2_bare_Release" parent="eu.kalray.eclipse.base.k1.tc2.exe.release">
+					<folderInfo id="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723." name="/" resourcePath="">
+						<toolChain id="eu.kalray.eclipse.base.k1Toolchain.tc2.exe.release.1908314863" name="K1dp Toolchain (Andey)" superClass="eu.kalray.eclipse.base.k1Toolchain.tc2.exe.release">
+							<targetPlatform id="eu.kalray.managedbuild.k1.tc2.platform.exe.release.34258417" name="Debug platform" superClass="eu.kalray.managedbuild.k1.tc2.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/src}/k1dp_tc2_bare_Release" id="eu.kalray.managedbuild.k1.tc2.builder.exe.release.538540626" managedBuildOn="true" name="Gnu Make Builder.k1dp_tc2_bare_Release" superClass="eu.kalray.managedbuild.k1.tc2.builder.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.archiver.base.1991522965" name="K1 archiver" superClass="eu.kalray.managedbuild.tool.k1.archiver.base"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.release.1635937105" name="K1dp C compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1792793514" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.19153225" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.c.compiler.input.1581162653" name="k1-gcc" superClass="eu.kalray.managedbuild.tool.k1.c.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.release.1362074463" name="K1dp C++ compiler (Andey)" superClass="eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.option.optimization.level.277675597" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1906469901" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1582209534" name="k1-g++" superClass="eu.kalray.managedbuild.tool.k1.cpp.compiler.input"/>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.c.linker.exe.release.1778962317" name="K1dp C linker" superClass="eu.kalray.managedbuild.tool.k1.tc2.c.linker.exe.release"/>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.cpp.linker.exe.release.1760239757" name="K1dp C++ linker" superClass="eu.kalray.managedbuild.tool.k1.tc2.cpp.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1298427383" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="eu.kalray.managedbuild.tool.k1.tc2.assembler.exe.release.1917910789" name="K1dp C Assembler" superClass="eu.kalray.managedbuild.tool.k1.tc2.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.829746334" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="src.eu.kalray.eclipse.base.k1.exe.1325342130" name="Executable" projectType="eu.kalray.eclipse.base.k1.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723;eu.kalray.eclipse.base.k1.tc2.exe.release.105739723.;eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.release.1362074463;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1582209534">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222;eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222.;eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.debug.1357303539;eu.kalray.managedbuild.tool.k1.c.compiler.input.1722235694">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222;eu.kalray.eclipse.base.k1.tc2.exe.debug.925119222.;eu.kalray.managedbuild.tool.k1.tc2.cpp.compiler.exe.debug.284065469;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.881321337">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.exe.release.974836304;eu.kalray.eclipse.base.k1.exe.release.974836304.;eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.release.89856066;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1395630672">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.exe.debug.419917472;eu.kalray.eclipse.base.k1.exe.debug.419917472.;eu.kalray.managedbuild.tool.k1.cpp.compiler.exe.debug.1997786619;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1880022904">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143;eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143.;eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.debug.699870117;eu.kalray.managedbuild.tool.k1.c.compiler.input.1455146380">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854;eu.kalray.eclipse.base.k1.emb01.exe.release.592016854.;eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.release.1182217990;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.1137811937">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.emb01.exe.release.592016854;eu.kalray.eclipse.base.k1.emb01.exe.release.592016854.;eu.kalray.managedbuild.tool.k1.emb01.c.compiler.exe.release.28817995;eu.kalray.managedbuild.tool.k1.c.compiler.input.1467309942">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.exe.release.974836304;eu.kalray.eclipse.base.k1.exe.release.974836304.;eu.kalray.managedbuild.tool.k1.c.compiler.exe.release.1980158539;eu.kalray.managedbuild.tool.k1.c.compiler.input.695813083">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.exe.debug.419917472;eu.kalray.eclipse.base.k1.exe.debug.419917472.;eu.kalray.managedbuild.tool.k1.c.compiler.exe.debug.1999525509;eu.kalray.managedbuild.tool.k1.c.compiler.input.1294812608">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.tc2.exe.release.105739723;eu.kalray.eclipse.base.k1.tc2.exe.release.105739723.;eu.kalray.managedbuild.tool.k1.tc2.c.compiler.exe.release.1635937105;eu.kalray.managedbuild.tool.k1.c.compiler.input.1581162653">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143;eu.kalray.eclipse.base.k1.emb01.exe.debug.887290143.;eu.kalray.managedbuild.tool.k1.emb01.cpp.compiler.exe.debug.169678549;eu.kalray.managedbuild.tool.k1.cpp.compiler.input.132287108">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="eu.kalray.eclipse.base.K1ManagedMakePerProjectProfileCpp"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
