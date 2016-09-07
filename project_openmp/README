@@ -1,0 +1,3 @@
+compile with gcc -o exec main.c -fopenmp -lm
+
+run with ./exec [num_threads]
